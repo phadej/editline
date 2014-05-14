@@ -1,0 +1,12 @@
+language: haskell
+ghc:
+  - 7.4
+  - 7.6
+  - 7.8
+
+script:
+  - sudo apt-get install libedit-dev
+  - autoheader
+  - autoconf
+  - cabal configure --enable-tests
+  - cabal test --show-details=always
