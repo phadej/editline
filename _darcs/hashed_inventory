@@ -1,0 +1,22 @@
+pristine:9bab6cb3d73a81e14db90305c2c96b32d4dd6567644cf5d7082077ee7307ed81
+Starting with inventory:
+0000003682-90b74b88730c805714c48ab2ec09b43a419f87240e1e74da5df137eff27dfecf
+[TAG 0.2.1.0
+Judah Jacobson <judah.jacobson@gmail.com>**20081019205823] 
+hash: 0000001013-8ecc789dc42b2d45be6c4bc3add4ee820ccb0e2f215a37b1018a585d564e192e
+[Bump version to 0.2.1.1.
+Judah Jacobson <judah.jacobson@gmail.com>**20081110205219] 
+hash: 0000000144-ef59aad22192752aafb6210fd32ae8a863f876dfa138bdffecf578e7f4510258
+[Prefer to link against curses over ncurses; this is the same behavior as the libedit package.
+Judah Jacobson <judah.jacobson@gmail.com>**20081116190603] 
+hash: 0000000706-fe6736cab44350b882b45d9df3bf1ab6474d6ec70a15ae699e76c5dab1b4eee1
+[Fixes for newer versions of autoconf.
+Judah Jacobson <judah.jacobson@gmail.com>**20121111061206
+ Ignore-this: 2147f9f965b23a980652a2020cfac9f7
+] 
+hash: 0000000580-32f45c897c7208b93dc221e397c95d659f6cdea6f1cae97e4bf9be24972f9c6e
+[Get editline building with ghc-7.6.1.
+Judah Jacobson <judah.jacobson@gmail.com>**20121111061227
+ Ignore-this: f13a6d25e6cf5288bbc4be99b490f6a7
+] 
+hash: 0000000431-7af14ba31ffada773b9ba51cb3db7e15a8d536a5edfa5437e03934e1f43107bb
