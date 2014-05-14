@@ -173,7 +173,7 @@ import Foreign.Marshal.Array ( mallocArray, peekArray0, pokeArray0 )
 import Foreign.C.Types	( CInt(..), CChar, CFile )
 import Foreign.C.String	( newCString, peekCString, withCString,
 			  castCharToCChar, castCCharToChar )
-import GHC.Handle	( fdToHandle )
+import GHC.IO.Handle.FD	( fdToHandle )
 
 {-# CFILES HsReadline_cbits.c #-}
 
